@@ -1,6 +1,6 @@
 ---
 name: episode-hook-designer
-description: "Design tactical episode-level rules for productized commercial Korean webnovels. Use when planning or diagnosing 상업 웹소설 회차 설계, 상품화 웹소설 원고 제작, 회차 훅, 1화 도입, 무료분 몰입, 유료화 전환부, 회차 말미 클리프행어, 다음 화 클릭 욕망, 댓글 유도 포인트, 장르별 회차 보상, 원고 작성용 회차 브리프, 회차별 장면 지시서, 보상 부채 관리, 독자 반응 예측, 편집/연재 전 회차 진단, or revision prescriptions for individual chapters or short episode sequences."
+description: "Design tactical episode-level rules for productized commercial Korean webnovels. Use when planning or diagnosing 상업 웹소설 회차 설계, 상품화 웹소설 원고 제작, 회차 훅, 1화 도입, 무료분 몰입, 유료화 전환부, 회차 말미 클리프행어, 갈등 종결회차 클리프행어, 다음 화 클릭 욕망, 댓글 유도 포인트, 장르별 회차 보상, 원고 작성용 회차 브리프, 회차별 장면 지시서, 보상 부채 관리, 독자 반응 예측, 편집/연재 전 회차 진단, or revision prescriptions for individual chapters or short episode sequences."
 ---
 
 # Episode Hook Designer
@@ -27,6 +27,7 @@ Load only the reference needed for the current task:
 - `references/genre-hook-matrix.md`: adapt episode rewards, hooks, comments, and paid turns by genre.
 - `references/commercial-production-workflow.md`: produce writer-ready briefs and editor-style approval notes.
 - `references/cliffhanger-repair-playbook.md`: repair weak endings such as vague mood, travel, sleep, setup, or explanation.
+- `references/conflict-ending-cliffhangers.md`: use cliffhanger grammar after intense conflict resolution or arc-ending episodes without betraying payoff.
 - `references/production-quality-gates.md`: run commercial readiness gates for 1 episode, 5 episodes, 25 episodes, and paid conversion.
 - `references/brief-template-bank.md`: use stable output templates and compact examples.
 - `references/manuscript-drafting-bridge.md`: convert an episode plan into scene-by-scene manuscript instructions.
@@ -63,6 +64,7 @@ If an episode has only setup, explain that the episode is at high risk of drop-o
    - `serialization operations`: build a production board for drafting and release readiness.
    - `reader response simulation`: estimate comments, satisfaction, and drop-off risks.
    - `genre hook adaptation`: genre-specific reward and ending hook selection.
+   - `conflict-ending cliffhanger`: design an arc-ending or high-conflict resolution episode that closes the main conflict while opening aftermath pressure.
    - `cliffhanger repair`: improve weak endings.
    - `comment trigger design`: add reader reaction points.
    - `diagnosis`: score and revise an existing episode/outline.
@@ -173,6 +175,22 @@ Include:
 - Confusion point
 - Revision target
 
+### Conflict-Ending Cliffhanger
+
+Use when a major conflict, revenge beat, trial, battle, confession, exposure, court scene, competition, or arc climax is being resolved.
+
+Include:
+
+- Conflict being closed
+- Required payoff that must not be withheld
+- Visible result of the resolution
+- Emotional/cathartic release
+- Aftermath pressure or new layer
+- Ending hook candidates that open consequence, not the same unresolved conflict
+- Reader trust risk
+- Best ending recommendation
+- Next episode handoff
+
 ### First Episode Hook
 
 Include:
@@ -259,6 +277,7 @@ Include:
 - Prefer specific cliffhanger objects: name, message, door, corpse, ranking, contract, confession, accusation, skill window, witness, enemy, choice, timer, price.
 - The best ending usually combines reward proximity with consequence: the reader sees the reward, then learns the cost.
 - If the ending cannot be visualized as an action, object, line, message, arrival, rule change, or forced choice, make it more concrete.
+- In a conflict-ending episode, do not withhold the promised resolution. Close the main conflict first, then hook with consequence, cost, witness, new claimant, power vacuum, or next-layer truth.
 
 ### Comment Rules
 
@@ -294,5 +313,6 @@ Before finalizing, check:
 - Can a writer draft the episode from the brief without asking what the hook is?
 - Are promises and payoffs tracked so the reader does not feel baited?
 - Does the episode support the same product promise as the title/intro/free section?
+- If this is a conflict-ending episode, is the core conflict actually resolved before the hook opens the next pressure?
 
 If two or more answers are weak, revise the episode structure before polishing prose.

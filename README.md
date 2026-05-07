@@ -19,6 +19,7 @@
 - 1-5화, 1-10화, 1-25화 무료분 유지력 설계
 - 유료화 전환부와 첫 유료화 보상 설계
 - 장르별 회차 보상과 클리프행어 선택
+- 갈등이 심한 종결회차에서 보상은 닫고 후폭풍은 여는 클리프행어 설계
 - 약한 회차 말미 교정
 - 독자 보상 장부와 미지급 약속 관리
 - 제목, 소개글, 태그, 1화, 무료분, 유료화의 상품 패키지 정합성 점검
@@ -54,6 +55,51 @@ Use $episode-hook-designer.
 무료 마지막 화 엔딩 훅과 첫 유료화에서 바로 회수할 보상을 설계해줘.
 ```
 
+```text
+Use $episode-hook-designer.
+복수 아크 종결회차야. 이번 화에서 악역은 반드시 공개적으로 몰락해야 해.
+카타르시스는 지급하되, 다음 화를 누르게 만드는 후폭풍형 클리프행어를 설계해줘.
+```
+
+```text
+Use $episode-hook-designer.
+로판에서 남녀주 갈등이 폭발한 회차의 종결부를 고치고 싶어.
+감정적 답은 회피하지 않으면서 다음 회차 압박을 남기는 엔딩 후보를 만들어줘.
+```
+
+## 종결회차 클리프행어 용법
+
+갈등이 큰 회차의 끝에서는 일반 클리프행어처럼 핵심 보상을 미루면 독자가 배신감을 느끼기 쉽습니다.
+
+이 스킬은 종결회차를 다음 원칙으로 다룹니다.
+
+```text
+핵심 갈등은 닫는다.
+카타르시스와 결과를 보여준다.
+그 결과 때문에 생긴 후폭풍을 연다.
+다음 화는 같은 갈등의 미해결이 아니라, 해결 이후의 대가를 보러 누르게 한다.
+```
+
+예를 들어 복수물에서는 악역 처벌 직전에 끊지 않습니다. 악역을 실제로 무너뜨린 뒤, 그 악역을 보호하던 더 큰 배후나 공개 후폭풍을 마지막 장면에 둡니다.
+
+좋은 요청 방식:
+
+```text
+이 회차에서 반드시 닫아야 할 갈등:
+독자에게 지급해야 할 보상:
+다음 화로 열어둘 후폭풍:
+갈등 강도:
+장르:
+```
+
+피해야 할 방식:
+
+```text
+그냥 더 충격적인 반전을 넣어줘.
+```
+
+충격보다 중요한 것은 신뢰입니다. 종결회차 클리프행어는 독자가 기다린 보상을 지급한 뒤에만 강하게 작동합니다.
+
 ## 구성
 
 ```text
@@ -66,6 +112,7 @@ episode-hook-designer/
     cliffhanger-repair-playbook.md
     comment-trigger-points.md
     commercial-production-workflow.md
+    conflict-ending-cliffhangers.md
     episode-diagnostics-rubric.md
     episode-retention-map.md
     genre-hook-matrix.md
@@ -100,4 +147,3 @@ episode-hook-designer/
 ```powershell
 python -X utf8 quick_validate.py path\to\episode-hook-designer
 ```
-

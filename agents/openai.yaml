@@ -1,4 +1,7 @@
-﻿interface:
+interface:
   display_name: "Episode Hook Designer"
   short_description: "상품화 웹소설 회차 제작과 종결 훅을 설계합니다."
   default_prompt: "Use $episode-hook-designer to create a productized commercial webnovel episode packet with scene instructions, reward ledger, conflict-ending cliffhangers, paid-conversion pressure, and reader-response simulation."
+
+policy:
+  allow_implicit_invocation: true
